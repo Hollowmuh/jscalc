@@ -19,6 +19,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
 }
 #display {
     background-color: #f8f9fa;
@@ -56,13 +57,15 @@ button {
 
 
 /* Operator buttons */
-button#operator {
+button#operator,
+button#decimal {
     background-color: #3675c7;
     color: white;
 }
 
 /* Clear button */
-button:first-child {
+button:first-child,
+button#delete {
     background-color: #dc3545;
     color: white;
 }
@@ -78,7 +81,7 @@ button#operator:hover {
     transform: scale(0.98);
 }
 
-button:first-child:hover {
+button:first-child:hover,#delete:hover {
     background-color: #c82333;
     transform: scale(0.98);
 }

@@ -24,13 +24,16 @@
             <button onclick="appendNumber('8')">8</button>
             <button onclick="appendNumber('9')">9</button>   
             <button id ="operator" onclick="appendOperator('*')">*
-
             </button>
             <button id ="operator" onclick="appendOperator('/')">/</button>
             
             
-            <button onclick="appendNumber('0')">0</button>            
+            <button onclick="appendNumber('0')">0</button>    
+            <button id="decimal" onclick="appendDecimal()">.</button>        
             <button onclick="calculateResult()">=</button>
+            <button id ="operator" onclick="appendOperator('%')">%</button>
+            <button id ="operator" onclick="appendOperator('**')">^</button>
+            <button id ="delete" onclick="deleteNumber()">del</button>
         </div>
     </div>
     <script src="script.js"></script>
